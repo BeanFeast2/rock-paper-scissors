@@ -81,5 +81,5 @@ function game(){
   }
 }
 
-alert("Let's Play Rock Paper Scissors against a computer! Best of three!");
-game();
+//alert("Let's Play Rock Paper Scissors against a computer! Best of three!");
+//game();

@@ -1,0 +1,191 @@
+*{
+  font-family: "Vesper Libre"
+}
+
+body{
+  overflow-x: hidden;
+  box-sizing: content-box;
+  background: #53878e;
+  background-image: url("pics/shield2.png");
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-size: 672px;
+  margin-top: 68px;
+}
+
+header{
+  display: inline-block;
+  height: 120px; width: 100%;
+}
+
+
+.score-board{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.score-header{
+  position: relative;
+  left: 10px;
+}
+
+.scores{
+  text-align: center;
+}
+
+.buttons{
+  position: absolute;
+  width: 100%;
+}
+
+#title{
+  font-size: 50px;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#instructions{
+  font-size: 25px;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 32px;
+
+}
+
+#win-header{
+  width: 403px; height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 33px;
+  border-bottom: 4px solid;
+}
+
+#seperator-line{
+  height: 100px; width: 1px;
+  background: black;
+  margin: 0 auto;
+}
+
+#user-header{
+  vertical-align: top;
+}
+
+#comp-header{
+  vertical-align: top;
+}
+
+#user-score,
+#comp-score{
+  margin: 0 70px;
+  position: relative;
+  bottom: 90px;
+}
+
+#battle-status{
+  font-size: 30px;
+  position: relative;
+  bottom: 136px;
+}
+
+#r-rock-button,
+#r-paper-button,
+#r-scissor-button{
+  right: 267px;
+  height: 140px; width: 140px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#l-rock-button,
+#l-paper-button,
+#l-scissor-button{
+  left: 218px;
+  height: 140px; width: 140px;
+  padding-bottom: 15px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#l-rock-button,
+#r-rock-button{
+  bottom: 550px;
+}
+
+#l-paper-button,
+#r-paper-button{
+  bottom: 391px;
+}
+
+#l-scissor-button,
+#r-scissor-button{
+  bottom: 229px;
+}
+
+#l-rock-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -14px 0;
+}
+
+#r-rock-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -14px 0;
+}
+
+#l-paper-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -160px 0;
+}
+
+#r-paper-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -160px 0;
+}
+
+#l-scissor-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -308px 0;
+}
+
+#r-scissor-button{
+  background-image: url("pics/icons.png");
+  background-size: 464px;
+  background-repeat: no-repeat;
+  background-position: -308px 0;
+}
+
+.buttons div{
+  display: inline;
+  position: absolute;
+}
+
+.score-header div{
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 4px;
+  font-size: 19px;
+}
+
+.scores div{
+  display: inline;
+  font-size: 103px;
+}
+
+#l-scissor-button:hover,
+#l-paper-button:hover,
+#l-rock-button:hover{
+  opacity: 1;
+}
